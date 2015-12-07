@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:900italic,900,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Anaheim);
+
+nav, footer {
+	font-family: 'Anaheim', sans-serif;
+	font-size: 16px;
+	font-weight: 900;
+	text-align: left;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+
+
+h2{
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+	font-size: 90px;
+	font-style: italic;
+	color: #ffeb80;
+	
+
+}
+h1{
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	font-size: 45px;
+
+}
+#main_title {
+	line-height: 1em;
+	text-align: center;
+}
+
+.about_us{
+	font-family: 'Anaheim', sans-serif;
+	font-size: 28px;
+}
+
+#sign_up{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 45px;
+	font-weight: 700;
+	font-family: 'Anaheim', sans-serif;
+}
+
+.more_info{
+	margin: 120px;
+	line-height: 1.5em;
+
+}
+.section_header{
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 40px;
+}
+
+.section_description, .list_description {
+	font-family: 'Anaheim', sans-serif;
+	font-size: 20px;
+}
+.list_item{
+	text-transform: uppercase;
+	font-family: 'Anaheim', sans-serif;
+	font-size: 24px;
+	font-weight: 900;
+}
+
+footer{
+	text-align: center;
+}
+
+
+
+
+
+
