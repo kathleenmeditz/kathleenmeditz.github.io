@@ -26,6 +26,10 @@ a{
 	color: black;
 }
 
+a:hover {
+	color: #ff66ff;
+}
+
 nav{
 	text-align: right;
 	margin: 20px 60px 0 0;
