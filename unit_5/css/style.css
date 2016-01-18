@@ -4,7 +4,7 @@
 * {margin: 0; padding: 0; box-sizing: border-box;}
 
 
-header{
+header {
 	padding: 20px 10px 200px 10px;
 	background-image: url("https://c.stocksy.com/a/UNN300/z0/804852.jpg");
 	background-repeat: no-repeat;
@@ -17,10 +17,9 @@ nav, footer {
 	font-weight: 900;
 	text-decoration: none;
 	text-transform: uppercase;
-
 }
 
-a{
+a {
 	text-decoration: none;
 	padding-right: 10px;
 	color: black;
@@ -30,30 +29,32 @@ a:hover {
 	color: #ff66ff;
 }
 
-nav{
+nav {
 	text-align: right;
 	margin: 20px 60px 0 0;
 }
 
-h2{
+h2 {
 	font-family: 'Playfair Display', serif;
 	font-weight: 900;
 	font-style: italic;
 	font-size: 60px;
-
+	text-transform: uppercase;
 }
-h1{
+
+h1 {
 	font-family: 'Anaheim', sans-serif;
-	font-size: 45px;
+	font-size: 30px;
 	text-transform: uppercase;
 	padding: 0 10px;
 	margin-top: 60px;
 }
 
-.white_padding{
+.white_padding {
 	background-color: rgba(255, 255, 255, .7);
 }
-span{
+
+span {
 	background-color: #d7ff99;
 	padding: 0 10px;
 }
@@ -64,17 +65,12 @@ span{
 	margin: 140px 0 0 0;
 }
 
-#intro_description{
+#intro_description {
 	font-family: 'Anaheim', sans-serif;
 	font-size: 24px;
 	margin: 60px 180px;
 	line-height: 1.5em;
 	text-align: center;
-}
-
-.about_us{
-	font-family: 'Anaheim', sans-serif;
-	font-size: 20px;
 }
 
 #sign_up{
@@ -90,23 +86,42 @@ span{
 	background-color: #d7ff99; 
 	margin-right: 10px;
 	color: black;
-
 }
 
 .body_descript{
 	margin: 0 180px;
 	padding: 60px 0;
-
 }
+
 
 
 .section_header{
 	font-family: 'Playfair Display', serif;
 	font-weight: 700;
 	font-style: italic;
-	font-size: 40px;
+	font-size: 28px;
 	margin: 16px 0;
 	color: black;
+}
+
+#how_we_work {
+	font-size: 24px;
+	text-align: center;
+	padding: 40px 0;
+}
+
+
+#features_1 {
+	float: left;
+	width: 50%;
+}
+
+#features_2 {
+	width: 50%;
+	
+}
+#features_1, #features_2 {
+	padding: 0 20px 0 0;
 }
 
 .section_description, .list_description {
@@ -114,10 +129,14 @@ span{
 	font-size: 20px;
 }
 .list_item{
-	text-transform: uppercase;
+	text-transform: bold;
 	font-family: 'Anaheim', sans-serif;
-	font-size: 24px;
+	font-size: 18px;
 	font-weight: 900;
+}
+
+#perks {
+	width: 50%;
 }
 
 .perks_link{
